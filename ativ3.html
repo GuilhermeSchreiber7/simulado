@@ -1,0 +1,12 @@
+<meta charset="UTF-8">
+<script>
+    //entrada
+    const precoGarrafa = Number(prompt('qual o preço da garrafa de refrigerante?'))
+    //processamento
+    const dezdesc = Math.ceil (precoGarrafa*2)-[(precoGarrafa*2)*0.10]
+    const quinzedesc = Math.ceil (precoGarrafa*3)-[(precoGarrafa*3)*0.15]
+    //saída
+    alert(`uma garrara custa ${precoGarrafa}`)
+    alert(`duas garrafas com desconto de 10% custariam ${dezdesc}`)
+    alert(`três garrafas com desconto 15% custariam ${quinzedesc}`)
+</script>
